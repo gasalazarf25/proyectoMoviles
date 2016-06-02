@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_noticias"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Noticias" />
+        <item
+            android:id="@+id/nav_directorio"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Directorio" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mapa del campus" />
+        <item
+            android:id="@+id/nav_reportes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Reportar obejtos perdidos" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_ayuda"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Ayuda" />
+            <item
+                android:id="@+id/nav_sugerencias"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sugerencias" />
+        </menu>
+    </item>
+
+</menu>
